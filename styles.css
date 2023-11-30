@@ -1,0 +1,38 @@
+/* Style your music player and search input here */
+.music-player {
+    text-align: center;
+    padding: 20px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.song-list {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+}
+body {
+    background-color: cyan;
+}
+.song-list li:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    color: blue; /* Change the text color on hover */
+}
